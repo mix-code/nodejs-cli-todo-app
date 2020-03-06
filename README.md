@@ -3,12 +3,13 @@ CLI Todo App With Nodejs
 
 ---
 ## Command
-- ### [Create](#create)
-- ### [List](#list)
-- ### [Show](#show)
-- ### [Remove](#remove)
-- ### [Toggle](#toggle)
+- [Create](#create)
+- [List](#list)
+- [Show](#show)
+- [Remove](#remove)
+- [Toggle](#toggle)
 
+---
 ### Create
 Create New Todo
 
@@ -19,6 +20,7 @@ $ node app.js create --title "Todo Title" --body "Todo Body"
 $ node app.js create --help
 ```
 
+---
 ### List
 List Todo
 
@@ -29,6 +31,7 @@ $ node app.js list
 $ node app.js list --help
 ```
 
+---
 ### Show
 Show Todo
 
@@ -40,6 +43,7 @@ $ node app.js show --index 0
 $ node app.js show --help
 ```
 
+---
 ### Remove
 Remove Todo
 
@@ -50,6 +54,7 @@ $ node app.js remove --index 0
 $ node app.js remove --help
 ```
 
+---
 ### Toggle
 Toggle Todo Completed Status
 
